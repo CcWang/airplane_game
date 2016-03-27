@@ -71,7 +71,7 @@
 				for (b in bullets) {
 					if (((enemies[m].position.x -10) < bullets[b].position.x) && (bullets[b].position.x < (enemies[m].position.x+10 ))) {
 						console.log(enemies[m].position.x,bullets[b].position.x);
-
+						console.log('enemies x in range of bullets range');
 						if (enemies[m].position.y == bullets[b].position.y) {
 							console.log("hit");
 						}
